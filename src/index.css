@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dev-900 text-dev-300 font-sans antialiased overflow-x-hidden;
+  }
+}
+
+@layer components {
+  .panel {
+    @apply bg-dev-900 border border-dev-700/50 rounded-lg;
+  }
+  
+  .terminal-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .terminal-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .terminal-scrollbar::-webkit-scrollbar-thumb {
+    background: #333333;
+    border-radius: 2px;
+  }
+  
+  .terminal-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #666666;
+  }
+}
+
+/* Custom Utilities */
+.text-gradient {
+  background: linear-gradient(180deg, #FFFFFF 0%, #999999 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
