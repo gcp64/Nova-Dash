@@ -1,54 +1,61 @@
-# Nova-Dash
+<div align="center"><h1>Nova-Dash</h1><p><strong>Autonomous Intelligence for AI Developers</strong> | <strong>ذكاء ذاتي لمطوري الذكاء الاصطناعي</strong></p><p><code>License: MIT</code> <code>Platform: Web</code> <code>Developed by: Bob</code></p></div>
 
-Nova-Dash is a minimalist, autonomous intelligence dashboard for AI developers. It features a highly professional, monochrome (Black & White) user interface inspired by premium developer tools, complete with a live interactive terminal, real-time metrics, and seamless integration with any OpenAI-compatible API (DeepSeek, ChatGPT, Local LM Studio, etc.).
+* * *
 
-## 🌟 Features
-- **Minimalist Monochrome UI**: A sleek, dark theme designed for professional developers.
-- **Universal AI Support**: Connects to any AI provider that supports the OpenAI Chat Completions API format.
-- **Streaming Terminal**: Watch the AI's thought process and responses stream in real-time.
-- **RTL Arabic Support**: Full support for Right-To-Left layout and Arabic localization.
+NovaDash is a minimalist, autonomous intelligence dashboard meticulously crafted for AI developers. It offers a streamlined, monochrome user interface, inspired by premium developer tools, to provide clear, actionable insights from complex AI operations.
 
-## 🛠️ Tech Stack
-- **Frontend**: Vite + React + TypeScript + Tailwind CSS v3
-- **Backend**: Node.js + Express
-- **Icons**: Lucide React
+نوفا-داش هي لوحة تحكم ذكاء اصطناعي ذاتية التنظيم ومبسطة، مصممة خصيصًا لمطوري الذكاء الاصطناعي. تقدم واجهة مستخدم أحادية اللون واحترافية، مستوحاة من أدوات المطورين الفاخرة، لتوفير رؤى واضحة وقابلة للتنفيذ من عمليات الذكاء الاصطناعي المعقدة.
 
-## 🚀 Getting Started
+* * *
 
-### 1. Installation
-Clone the repository and install the dependencies:
-```bash
-git clone https://github.com/yourusername/nova-dash.git
-cd nova-dash
-npm install
+## Features | المميزات
+
+### 1\. Autonomous Intelligence | الذكاء الذاتي
+
+*   Real-time data processing for AI metrics and performance. | معالجة البيانات في الوقت الفعلي لمقاييس وأداء الذكاء الاصطناعي.
+*   Automated insights and anomaly detection for proactive monitoring. | رؤى تلقائية واكتشاف الشذوذ للمراقبة الاستباقية.
+
+### 2\. Minimalist UI/UX | واجهة المستخدم/تجربة المستخدم المبسطة
+
+*   Clean, monochrome Black & White design for a distraction-free experience. | تصميم نظيف وأحادي اللون (أبيض وأسود) لتجربة خالية من التشتت.
+*   Intuitive navigation and data visualization for quick comprehension. | تصفح بديهي وتصور للبيانات لفهم سريع.
+*   Optimized for developer focus and enhanced productivity. | مُحسّنة لتركيز المطور وزيادة الإنتاجية.
+
+* * *
+
+## Tech Stack | التقنيات
+
+| Component | Technology |
+| :-- | :-- |
+| **Frontend** | TypeScript, JavaScript, HTML, CSS (Modern Web Framework) |
+| **Backend/Core** | JavaScript/TypeScript (Client-side logic) |
+| **Database/Storage** | N/A (Relies on external data sources/APIs) |
+
+* * *
+
+## Project Structure | هيكل المشروع
+
+```plaintext
+Nova-Dash/
+├── src/                # Source files (TypeScript components, CSS modules)
+├── public/             # Static assets (index.html, images)
+└── README.md           # Project documentation
 ```
 
-### 2. Environment Setup
-Copy the example environment file and fill in your API credentials:
-```bash
-cp .env.example .env
-```
-Open `.env` and set your variables:
-```env
-API_KEY=your_api_key_here
-BASE_URL=https://api.deepseek.com/v1 # Or any other OpenAI-compatible endpoint
-MODEL_NAME=deepseek-chat
-```
+* * *
 
-### 3. Run the Development Servers
-You need to run both the frontend and the backend servers.
+## Terms of Use | شروط الاستخدام
 
-**Terminal 1 (Backend Server):**
-```bash
-node server.js
-```
+1.  **Personal Use:** Free for personal, non-commercial use. (الاستخدام الشخصي مجاني وغير تجاري)
+2.  **Modification:** You may modify this software for personal use. (يمكنك تعديل البرنامج للاستخدام الشخصي)
 
-**Terminal 2 (Frontend Vite Server):**
-```bash
-npm run dev
-```
+* * *
 
-Open your browser and navigate to `http://localhost:5173`.
+## Disclaimer | إخلاء المسؤولية
 
-## 📜 License
-This project is licensed under the MIT License - Copyright (c) 2026 bob. All rights reserved.
+This software is provided as is. The developer assumes no liability for any system instability or data loss.  
+البرنامج مقدم كما هو. المطور غير مسؤول عن أي عدم استقرار للنظام أو فقدان للبيانات.
+
+* * *
+
+<div align="center"><strong>Developed with passion by Bob</strong><br>All rights reserved © 2026</div>
